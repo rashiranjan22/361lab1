@@ -116,7 +116,7 @@ header .fa-bars{
     align-items: center;
     min-height: 100vh;
     /* background-image: url('https://wallpapercave.com/wp/wp6897366.jpg'); */
-    background-image: url('../dbmslab/images/Untitled design2.png'); /* Use forward slashes and correct relative path */
+    background-image: url('../361lab1/images/Untitled design2.png'); /* Use forward slashes and correct relative path */
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #e84393; */
@@ -235,6 +235,10 @@ header .fa-bars{
 .icons-container .icons span{
     color: #555;
     font-size: 1.3rem;
+}
+
+.products{
+    padding-top: 100px;
 }
 
 .products .box-container{
@@ -484,6 +488,7 @@ header .fa-bars{
 
 
 
+
 .product {
     display: grid;
     grid-template-columns: 0.9fr 1fr;
@@ -565,20 +570,20 @@ header .fa-bars{
 .title {
 	h1 {
 		margin-bottom: 0.1em;
-		color: $color-primary;
+		color: color-primary;
 		font-size: 2.5em;
 		font-weight: 900;
 	}
 
 	span {
 		font-size: 0.7em;
-		color: $color-secondary;
+		color: color-secondary;
 	}
 }
 
 .price {
 	margin: 1.5em 0;
-	color: $color-highlight;
+	color: color-highlight;
 	font-size: 1.2em;
 
 	span {
@@ -605,7 +610,7 @@ header .fa-bars{
 
 		&:first-child,
 		&:hover {
-			border: 1px solid $color-secondary;
+			border: 1px solid color-secondary;
 		}
 	}
 
@@ -653,7 +658,7 @@ header .fa-bars{
 
 img {
     max-width: 100%;
-    filter: drop-shadow(1px 1px 3px $color-secondary);
+    filter: drop-shadow(1px 1px 3px color-secondary);
 }
 
 
